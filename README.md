@@ -14,12 +14,14 @@
 + change [runway.launch](https://drive.google.com/file/d/1GZMbl0JDaDLkVXpZpK9obQmARWhDPD52/view?usp=sharing) file in launch folder in iq_sim to run runway4.world
 + Open a terminal and run the following scripts parallelly   
 
-   ' cd catkin_ws/
-    cd src
-    cd iq_sim
-    roslaunch iq_sim runway.launch
-    roslaunch iq_sim apm.launch'
-    
+  
+
+      cd catkin_ws/
+        cd src
+        cd iq_sim
+        roslaunch iq_sim runway.launch
+        roslaunch iq_sim apm.launch
+        
     This will start the Gzebo world and initialize the ros nodes.
     Now run the startsitl.sh file
 ./startsitl.sh
