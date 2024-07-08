@@ -53,4 +53,7 @@ Now run the altmaintain11.py script in src
 # Overview of algorithm
 The drone has 2 realsense depth cameras attached to it in this simulation
 
-Processing downward depth data is fairly easy 
+Processing downward depth data is fairly easy we are looking for the hieghest tree and its position by searching for the lowest depth pixel value and its position in image
+
+For front facing camera we are forming a terrain map by using a simple edge detection algorithm
+![Screenshot from Screencast from 17-06-24 03:25:06 PM IST webm](https://github.com/codemaster1104/UAV/assets/115527374/cb831b4e-7631-4bda-91c0-c376d4c5a3de)
