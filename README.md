@@ -1,4 +1,5 @@
 
+
 # UAV project
 
 ## This project assumes that you are working on Ubuntu 20.04
@@ -57,3 +58,5 @@ Processing downward depth data is fairly easy we are looking for the hieghest tr
 
 For front facing camera we are forming a terrain map by using a simple edge detection algorithm
 ![Screenshot from Screencast from 17-06-24 03:25:06 PM IST webm](https://github.com/codemaster1104/UAV/assets/115527374/cb831b4e-7631-4bda-91c0-c376d4c5a3de)
+
+Once we have data from front and downward facing camera alt_maintain11.py performs decision making for which feed to prioritise and adjusts the z velocity of drone accordingly
