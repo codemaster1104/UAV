@@ -44,3 +44,13 @@ Now in SITL set the mode to guided and takeoff
 Now run the altmaintain11.py script in src
 
     python altmaintain11.py
+
+
+    
+[Screencast from 08-07-24 03:21:10 PM IST.webm](https://github.com/codemaster1104/UAV/assets/115527374/7340066e-d0f3-4b90-83c0-3dbc77585eac)
+
+
+# Overview of algorithm
+The drone has 2 realsense depth cameras attached to it in this simulation
+
+Processing downward depth data is fairly easy 
