@@ -23,5 +23,24 @@
       roslaunch iq_sim apm.launch
         
     This will start the Gzebo world and initialize the ros nodes.
-    Now run the startsitl.sh file
-./startsitl.sh
+    Now run the startsitl.sh file in **new terminal**
+
+		cd ~
+        ./startsitl.sh
+Now run the python scripts in src **each in new terminal**
+
+    python ros_script.py
+    python ros_front.py
+    python f2.py
+    python down.py
+
+
+Now in SITL set the mode to guided and takeoff
+
+    mode guided
+    arm throttle
+    takeoff 10
+
+Now run the altmaintain11.py script in src
+
+    python altmaintain11.py
