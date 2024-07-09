@@ -71,3 +71,6 @@ Now you can visualise depth data using  rviz or d2.py
 ![Screenshot from 2024-06-28 14-15-33](https://github.com/codemaster1104/UAV/assets/115527374/1f188de1-9f4e-40df-9005-3d6f2650f6e8)
 
 Now the f2.py equivalent for real hardware is r_front.py
+
+## Note:
+The data processing scripts also subscribe to imu data and adjust the data according to the drone tilt to simulate the data in reference to ground plane
