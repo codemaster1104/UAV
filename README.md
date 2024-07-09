@@ -1,5 +1,5 @@
 # UAV project
-
+### Objective: Terrain following using depth camera feed
 ## This project assumes that you are working on Ubuntu 20.04
 
 # Build required SDK's
