@@ -16,8 +16,8 @@
   
 
       cd catkin_ws/
-      cd src
-      cd iq_sim
+      cd src/
+      cd iq_sim/
       roslaunch iq_sim runway.launch
       roslaunch iq_sim apm.launch
         
