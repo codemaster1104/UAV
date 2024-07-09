@@ -1,5 +1,3 @@
-
-
 # UAV project
 
 ## This project assumes that you are working on Ubuntu 20.04
@@ -56,7 +54,20 @@ The drone has 2 realsense depth cameras attached to it in this simulation
 
 Processing downward depth data is fairly easy we are looking for the hieghest tree and its position by searching for the lowest depth pixel value and its position in image
 
-For front facing camera we are forming a terrain map by using a simple edge detection algorithm
+For front facing camera we are forming a terrain map by using a edge detection algorithm, this visualisation can be done by running front.py, f2.py is more optimised version of it just looking for first such pixel
 ![Screenshot from Screencast from 17-06-24 03:25:06 PM IST webm](https://github.com/codemaster1104/UAV/assets/115527374/cb831b4e-7631-4bda-91c0-c376d4c5a3de)
 
 Once we have data from front and downward facing camera alt_maintain11.py performs decision making for which feed to prioritise and adjusts the z velocity of drone accordingly
+
+# Using Intel real sense hardware
+
+First build [Realsense SDK](https://www.mouser.com/applications/getting-started-with-realsense-d455/)
+Then run following command to initialise its node
+
+    roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
+    
+Now you can visualise depth data using  rviz or d2.py
+
+![Screenshot from 2024-06-28 14-15-33](https://github.com/codemaster1104/UAV/assets/115527374/1f188de1-9f4e-40df-9005-3d6f2650f6e8)
+
+Now the f2.py equivalent for real hardware is r_front.py
