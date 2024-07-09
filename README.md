@@ -75,7 +75,7 @@ Now the f2.py equivalent for real hardware is r_front.py
 ## Note:
 The data processing scripts also subscribe to imu data and adjust the data according to the drone tilt to simulate the data in reference to ground plane
 
-# Roll, yaw, pitch in pilots control
+# Roll, yaw, pitch in manual control
 
 In altmaintain10.py joystick has been bridged to the guided mode of ardupilot so that pilot can control roll, yaw and pitch of drone whereas altitude is taken care of autonomously
 
